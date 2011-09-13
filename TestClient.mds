@@ -1,0 +1,19 @@
+<Combine name="TestClient" fileversion="2.0">
+  <Configurations active="Debug|Any CPU">
+    <Configuration name="Debug|Any CPU" ctype="CombineConfiguration">
+      <Entry build="True" name="TestClient" configuration="Debug|Any CPU" />
+    </Configuration>
+    <Configuration name="Release|Any CPU" ctype="CombineConfiguration">
+      <Entry build="True" name="TestClient" configuration="Release|Any CPU" />
+    </Configuration>
+    <Configuration name="Release-docs|Any CPU" ctype="CombineConfiguration">
+      <Entry build="True" name="TestClient" configuration="Release-docs|Any CPU" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="TestClient" single="True">
+    <Execute type="None" entry="TestClient" />
+  </StartMode>
+  <Entries>
+    <Entry filename="TestClient.csproj" />
+  </Entries>
+</Combine>
